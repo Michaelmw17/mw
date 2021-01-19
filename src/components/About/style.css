@@ -1,0 +1,25 @@
+
+
+.h1 {
+    padding-top: 80px;
+    text-align: center;
+    color: #000000 ;
+    font-size: 48px;
+}
+.a {
+    color: white;
+}
+.img-about {
+ padding-left: 50%;
+}
+.aboutFirstPara {
+    padding: 80px;
+    word-wrap: break-word;
+    font-size: 140%;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    line-height: 180%;
+    color: black;
+    font-family: 'Roboto Slab';
+}
+
