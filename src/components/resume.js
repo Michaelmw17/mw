@@ -40,7 +40,7 @@ When I’m not designing or developing, I enjoy going to the gym, playing games 
 I am an organised and open minded person with creative ideas, motivated to use my skills and knowledge. My technical expertise, customer service and systems experience will add value to any web team. I’m excited to leverage my skills as part of a quality-driven team. 
 </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Location</h5>\
+            <h5>Location</h5>
             <Cell  col={1}><a href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney, NSW</a></Cell>
             <h5>Phone</h5>
             <Cell col={1}><a href="tel:+61449620082"><i className="fa fa-phone fa-2x" aria-hidden="true"/></a></Cell>
