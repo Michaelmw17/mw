@@ -25,12 +25,12 @@ class Projects extends Component {
                         never need to search anywhere else for your NBA stats or news!
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/Michaelmw17">GitHub</a></Button>
-              <Button colored><a href="https://github.com/AGr2020Xman/Project_1-Basketball-News">Github App</a></Button>
-              <Button colored><a href="https://agr2020xman.github.io/Project_1-Basketball-News/">Live Demo</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/AGr2020Xman/Project_1-Basketball-News">Github App</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://agr2020xman.github.io/Project_1-Basketball-News/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
+              <IconButton name="share" href="https://agr2020xman.github.io/Project_1-Basketball-News/" />
             </CardMenu>
           </Card>
 
@@ -47,12 +47,12 @@ class Projects extends Component {
                     Almost all of the current advertisement channels are revenue oriented, by providing a free service.
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/Michaelmw17">GitHub</a></Button>
-              <Button colored><a href="https://github.com/prabhm512/business-advertisement-portal">Github App</a></Button>
-              <Button colored><a href="https://business-advertisement-portal.herokuapp.com/">Live Demo</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}}  href="https://github.com/prabhm512/business-advertisement-portal">Github App</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://business-advertisement-portal.herokuapp.com/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
+              <IconButton name="share" href="https://business-advertisement-portal.herokuapp.com" />
             </CardMenu>
           </Card>
 
@@ -80,16 +80,16 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff',  height: '176px', background: 'url(https://avatars1.githubusercontent.com/u/68934942?s=460&u=6b540953a024c11773443fa56301c2db879e842d&v=4) center / cover'}} ></CardTitle>
             <CardText>
-              Michael's Github account 
+              Michael's Github 
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/Michaelmw17">GitHub</a></Button>
-            <Button colored><a href="https://michaelmw17.github.io/">Portfolio</a></Button>
-              <Button colored><a href="https://github.com/Michaelmw17?tab=repositories">Github Repositories</a></Button>
+            <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
+            <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://michaelmw17.github.io/mw">Portfolio</a></Button>
+              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17?tab=repositories">Github Repositories</a></Button>
               
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
+              <IconButton name="share" href="https://michaelmw17.github.io/mw/"  />
             </CardMenu>
           </Card>
       )

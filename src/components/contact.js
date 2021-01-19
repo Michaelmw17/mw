@@ -10,27 +10,20 @@ class Contact extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="contact-grid">
           <Cell col={12}>
-            <img src='./circle-cropped.png'  alt="logo"  style={{height: '200px', paddingTop: '50px'}} />
-
+            <img src={process.env.PUBLIC_URL + '/Images/circle-cropped.png'} alt="Logo" style={{ height: '200px' }}/>
             <div className="header-text">
               <h1>Full Stack Web Developer</h1>
-
-            <hr/>
-
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-
+                <hr/>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
         <div className="my-links">
-
           {/* LinkedIn */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+            <i className="fa fa-linkedin-square fa-4x" aria-hidden="true" />
           </a>
-
           {/* Github */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+            <i className="fa fa-github-square fa-4x" aria-hidden="true" />
           </a>
-
           {/* Freecodecamp */}
           {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
