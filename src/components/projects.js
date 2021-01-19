@@ -25,9 +25,9 @@ class Projects extends Component {
                         never need to search anywhere else for your NBA stats or news!
             </CardText>
             <CardActions border>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/AGr2020Xman/Project_1-Basketball-News">Github App</a></Button>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://agr2020xman.github.io/Project_1-Basketball-News/">Live Demo</a></Button>
+              <Button colored><a style={{color: 'black'}}  href="https://github.com/Michaelmw17">GitHub</a></Button>
+              <Button colored><a style={{color: 'black'}}  href="https://github.com/AGr2020Xman/Project_1-Basketball-News">Github App</a></Button>
+              <Button colored><a style={{color: 'black'}}  href="https://agr2020xman.github.io/Project_1-Basketball-News/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" href="https://agr2020xman.github.io/Project_1-Basketball-News/" />
@@ -47,9 +47,9 @@ class Projects extends Component {
                     Almost all of the current advertisement channels are revenue oriented, by providing a free service.
             </CardText>
             <CardActions border>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}}  href="https://github.com/prabhm512/business-advertisement-portal">Github App</a></Button>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://business-advertisement-portal.herokuapp.com/">Live Demo</a></Button>
+              <Button colored><a style={{color: 'black'}}  href="https://github.com/Michaelmw17">GitHub</a></Button>
+              <Button colored><a style={{color: 'black'}}   href="https://github.com/prabhm512/business-advertisement-portal">Github App</a></Button>
+              <Button colored><a style={{color: 'black'}}  href="https://business-advertisement-portal.herokuapp.com/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" href="https://business-advertisement-portal.herokuapp.com" />
@@ -83,9 +83,9 @@ class Projects extends Component {
               Michael's Github 
             </CardText>
             <CardActions border>
-            <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17">GitHub</a></Button>
-            <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://michaelmw17.github.io/mw">Portfolio</a></Button>
-              <Button colored><a style={{color: 'black'}} activeStyle={{color: 'red'}} href="https://github.com/Michaelmw17?tab=repositories">Github Repositories</a></Button>
+            <Button colored><a style={{color: 'black'}}  href="https://github.com/Michaelmw17">GitHub</a></Button>
+            <Button colored><a style={{color: 'black'}}  href="https://michaelmw17.github.io/mw">Portfolio</a></Button>
+              <Button colored><a style={{color: 'black'}} href="https://github.com/Michaelmw17?tab=repositories">Github Repositories</a></Button>
               
             </CardActions>
             <CardMenu style={{color: '#fff'}}>

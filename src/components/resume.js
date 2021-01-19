@@ -5,10 +5,7 @@ import Experience from './experience';
 import Skills from './skills';
 import Bounce from 'react-reveal/Bounce';
 import "animate.css/animate.min.css";
-
 import Zoom from 'react-reveal/Zoom';
-
-
 
 class Resume extends Component {
   render() {
@@ -20,7 +17,7 @@ class Resume extends Component {
             <Cell col={4} phone={12} tablet={6} className='firstHeader'>
               <Zoom>
                 <div style={{ textAlign: 'center' }}>
-                  <img src={process.env.PUBLIC_URL + '/Images/circle-cropped.png'} alt="Logo" style={{ height: '200px' }}/>
+                  <img src={process.env.PUBLIC_URL + '/Images/circle-cropped.jpg'} alt="Logo" style={{ height: '200px' }}/>
             </div>
             <h2 style={{paddingTop: '2rem'}}>Michael</h2>
             <h4 style={{color: 'grey'}}>Full Stacked Web Developer</h4>
@@ -36,7 +33,7 @@ class Resume extends Component {
                   </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
-            <Cell  col={1}><a style={{color: 'black'}} activeStyle={{color: 'red'}} href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney NSW</a></Cell>
+            <Cell  col={1}><a style={{color: 'black'}}  href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney NSW</a></Cell>
             <h5>Phone</h5>
             <Cell col={1}><a href="tel:+61449620082"><i className="fa fa-phone fa-2x" aria-hidden="true"/></a></Cell>
             <h5>Email</h5>
