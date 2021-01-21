@@ -82,14 +82,14 @@ class Resume extends Component {
                   jobDescription=" York Bar City Bowling Club is an inner city club, eatery and bar
                   that welcomes club members through the doors to experience our food
                   and warm atmosphere. 
-                  ~Managed the beverage service and customer requests. 
-                  ~Maintained stock, managing and restocking pre-shift, reported on
+                  ~ Managed the beverage service and customer requests. 
+                  ~ Maintained stock, managing and restocking pre-shift, reported on
                     loss or damage.
                     Handled cash, credit card and EFT facilities. 
-                    ~Participated in team meetings and other work-related meetings. 
-                    ~Ensured licensing laws and legislative requirements were adhered
+                    ~ Participated in team meetings and other work-related meetings. 
+                    ~ Ensured licensing laws and legislative requirements were adhered
                     to. 
-                    ~Ensuring Workplace Health and Safety procedures and processes are
+                    ~ Ensuring Workplace Health and Safety procedures and processes are
                     adhered to." />
               <Experience
                 startYear={2016}

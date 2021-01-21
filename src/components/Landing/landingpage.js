@@ -31,16 +31,31 @@ class Landing extends Component {
                   <div className="social-links">
                     
                       <Grid className="demo-grid-3">
-        <Cell col={6} tablet={8}> {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/michael-watt-6a76961b3/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a></Cell>
-        <Cell col={4} tablet={6}>{/* Github */}
-          <a href="https://github.com/Michaelmw17/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-                    </a></Cell>
-        <Cell col={2} phone={4}></Cell>
-    </Grid>
+         <Cell col={6} tablet={8}> {/* LinkedIn */}
+                    <a href="https://www.linkedin.com/in/michael-watt-6a76961b3/" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-linkedin-square fa-4x" aria-hidden="true" />
+                    </a>
+                  </Cell>
+                  <Cell col={6} tablet={8}>
+                    {/* Github */}
+                    <a href="https://github.com/Michaelmw17/" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-github-square fa-4x" aria-hidden="true" />
+                    </a>
+                  </Cell>
+                  <Cell col={6} tablet={8}>
+                    {/* Github */}
+                    <a href="tel:+61449620082">
+                      <i className="fa fa-phone fa-4x" aria-hidden="true" />
+                    </a>
+                  </Cell>
+                  <Cell col={6} tablet={8}>
+                    {/* Github */}
+                    <a href ="mailto:michaelmw17@outlook.com">
+                      <i className="fa fa-envelope fa-4x" aria-hidden="true" />
+                    </a>
+                  </Cell>
+        {/* <Cell col={2} phone={4}></Cell> */}
+                </Grid>
          
           
           
