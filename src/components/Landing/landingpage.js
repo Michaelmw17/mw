@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Bounce from 'react-reveal/Bounce';
 import "animate.css/animate.min.css";
 import Zoom from 'react-reveal/Zoom';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+import Loader from 'react-loader-spinner'
+
+
+const MyComp = lazy(() => import('../myComp/myComp'));
+
 
 class Landing extends Component {
   render() {
@@ -11,7 +17,12 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <Bounce>
-              <img src={process.env.PUBLIC_URL + '/Images/circle-cropped.png'} alt="Logo" style={{ height: '200px', paddingTop: '50px' }}/>
+              <Suspense fallback={
+                <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
+                    
+              }>
+                    <MyComp />
+                </Suspense>
               <div className="banner-text">
                 <Zoom>
               <h1>Full Stack Web Developer</h1>
