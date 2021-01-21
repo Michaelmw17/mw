@@ -9,7 +9,7 @@ import Zoom from 'react-reveal/Zoom';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
 
-const MyComp = lazy(() => import('../myComp/myComp'));
+const MyComp = lazy(() => import('../MyComp/myComp'));
 
 
 class Resume extends Component {
@@ -33,7 +33,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2rem'}}>Michael</h2>
             <h4 style={{color: 'grey'}}>Full Stacked Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                <p smooth={true}>
+                <p>
                   Front End Web Developer leveraging my background in Business. Trained at the University of Sydney Coding Bootcamp and earned a Certificate in Full Stack Web Development. Known as an innovative problem-solver passionate about developing apps, focused on mobile-first design and development. Thriving on the problem solving aspects of web design. Excited to grow and become a valuable asset, leveraging my skills in the future as part of a quality-driven team with the addition of my attention to detail in order to build better experiences on the web.
                   <br></br>
                   Have extensive experience in customer service and business administration having worked in retail and hospitality for over four years. In my roles in hospitality I collaborate effectively with the team and am proactive about implementing systems improvements.
@@ -44,7 +44,7 @@ class Resume extends Component {
                   </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
-            <Cell  col={1}><a style={{color: 'black'}}  smooth={true} href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney NSW</a></Cell>
+            <Cell  col={1}><a style={{color: 'black'}}  href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney NSW</a></Cell>
             <h5>Phone</h5>
             <Cell col={1}><a href="tel:+61449620082"> <i className="fa fa-phone fa-2x" aria-hidden="true"/></a></Cell>
             <h5>Email</h5>
@@ -56,14 +56,14 @@ class Resume extends Component {
               </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-            <Education smooth={true}
+            <Education
               startYear={2020}
               endYear={2021}
               schoolName="University of Sydney"
                 schoolDescription="I'm currently studying at The University of Sydney to become a Full-stack Web Developer.  
                 I have learned Html, CSS, Javascript, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB."
                 />
-              <Education smooth={true}
+              <Education
                 id="educationTafe"
                   startYear={2015}
                   endYear={2017}
@@ -74,9 +74,9 @@ class Resume extends Component {
               <hr style={{ borderTop: '3px solid #e22947' }} />
 
               <h2>Experience</h2>
-            <Experience smooth={true}
-                  startYear={2009}
-                  endYear={2012}
+            <Experience
+                  startYear={2019}
+                  endYear={'Current'}
                     jobName="Club York"
                   titleName="Bartender"
                   jobDescription=" York Bar City Bowling Club is an inner city club, eatery and bar
@@ -91,9 +91,9 @@ class Resume extends Component {
                     to. 
                     ~Ensuring Workplace Health and Safety procedures and processes are
                     adhered to." />
-              <Experience smooth={true}
-                startYear={2012}
-                endYear={2016}
+              <Experience
+                startYear={2016}
+                endYear={2019}
                 jobName="Rhythm boat Sydney Harbour Cruises"
                 titleName="Bartender"
                 jobDescription="Rhythm boat Sydney Harbour Cruises 
@@ -102,7 +102,7 @@ class Resume extends Component {
                 events and services from set up, running and pack down.
                 ~ Handled cash, credit card and EFT facilities.
                 ~ Assisted with beverage and food service. " />
-              <Experience smooth={true}
+              <Experience
                 startYear={2012}
                 endYear={2016}
                 jobName="Harris Farm's Market"

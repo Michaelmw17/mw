@@ -30,6 +30,9 @@
   padding-left: 90px;
   
 }
+.fa-globe {
+  padding-left: 10px;
+}
 .projects-grid, .contact-grid {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, 186px);

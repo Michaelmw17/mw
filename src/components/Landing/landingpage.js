@@ -7,7 +7,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
 
 
-const MyComp = lazy(() => import('../myComp/myComp'));
+const MyComp = lazy(() => import('../MyComp/myComp'));
 
 
 class Landing extends Component {
@@ -15,7 +15,7 @@ class Landing extends Component {
     return (
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell col={12} tablet={8}>
             <Bounce>
               <Suspense fallback={
                 <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />

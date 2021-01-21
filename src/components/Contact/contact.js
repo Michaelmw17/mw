@@ -9,7 +9,7 @@ class Contact extends Component {
     return (<Bounce>
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="contact-grid">
-          <Cell col={12}>
+          <Cell col={12} tablet={8}>
             <img src={process.env.PUBLIC_URL + '/Images/circle-cropped.png'} alt="Logo" style={{ height: '200px' }}/>
             <div className="header-text">
               <h1>Full Stack Web Developer</h1>
