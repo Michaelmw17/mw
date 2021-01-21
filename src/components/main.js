@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import LandingPage from './landingpage';
+import LandingPage from './Landing/landingpage';
 import AboutMe from './About/aboutme';
-import Contact from './contact';
-import Projects from './projects';
-import Resume from './resume';
+import Contact from './Contact/contact';
+import Projects from './Projects/projects';
+import Resume from './Resume/resume';
 
 
 

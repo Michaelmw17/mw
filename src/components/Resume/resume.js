@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
+import Education from '../Education/education';
+import Experience from '../Experience/experience';
+import Skills from '../Skills/skills';
 import Bounce from 'react-reveal/Bounce';
 import "animate.css/animate.min.css";
 import Zoom from 'react-reveal/Zoom';
@@ -35,11 +35,11 @@ class Resume extends Component {
             <h5>Location</h5>
             <Cell  col={1}><a style={{color: 'black'}}  href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA">Sydney NSW</a></Cell>
             <h5>Phone</h5>
-            <Cell col={1}><a href="tel:+61449620082"><i className="fa fa-phone fa-2x" aria-hidden="true"/></a></Cell>
+            <Cell col={1}><a href="tel:+61449620082"> <i className="fa fa-phone fa-2x" aria-hidden="true"/></a></Cell>
             <h5>Email</h5>
-            <Cell col={1}><a href ="mailto:michaelmw17@outlook.com"><i className="fa fa-envelope fa-2x" aria-hidden="true"/></a></Cell>
+            <Cell col={1}><a href ="mailto:michaelmw17@outlook.com"> <i className="fa fa-envelope fa-2x" aria-hidden="true"/></a></Cell>
             <h5>Web</h5>
-            <a href='http://michaelmw17.github.io/mw/'><i className="fa fa-globe fa-2x" aria-hidden="true"/></a>
+            <a href='http://michaelmw17.github.io/mw/'> <i className="fa fa-globe fa-2x" aria-hidden="true"/></a>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/></Zoom>
             </Cell>
           <Cell className="resume-right-col" col={8}>
