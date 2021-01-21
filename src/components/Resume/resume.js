@@ -3,12 +3,14 @@ import { Grid, Cell } from 'react-mdl';
 import Education from '../Education/education';
 import Experience from '../Experience/experience';
 import Skills from '../Skills/skills';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 import "animate.css/animate.min.css";
 import Zoom from 'react-reveal/Zoom';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
+import  './style.css'
+
 
 const MyComp = lazy(() => import('../MyComp/myComp'));
 
@@ -16,17 +18,14 @@ const MyComp = lazy(() => import('../MyComp/myComp'));
 class Resume extends Component {
   render() {
     return(
-      <div>
+      <div className="resumeDiv">
         <Fade>
         <Grid>
             <Cell col={4} phone={12} tablet={6} className='firstHeader'>
               <Zoom>
                 <div style={{ textAlign: 'center' }}>
-                  
-                  {/* <img lazy='loading' src={process.env.PUBLIC_URL + '/Images/circle-cropped.jpg'} alt="Logo" style={{ height: '200px' }}/> */}
                   <Suspense fallback={
                       <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
-                    
                   }>
                     <MyComp />
                 </Suspense>
@@ -120,18 +119,18 @@ class Resume extends Component {
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Grid>
-                <Skills skill="JavaScript"col={1}></Skills>
-                <Skills skill="HTML/HTML5"col={1}></Skills>
-                <Skills skill="Bootstrap"col={1}></Skills>
-                <Skills skill="CSS/CSS3"col={1}></Skills>
-                <Skills skill="MongoDB"col={1}></Skills>
-                <Skills skill="MySQL"col={1}></Skills>
-                <Skills skill="React"col={1}></Skills>
-                <Skills skill="Node.js"col={1}></Skills>
-                <Skills skill="API's"col={1}></Skills>
-                <Skills skill="Git"col={1}></Skills>
-                <Skills skill="UI design "col={1}></Skills>
-                <Skills skill="UX design "col={1}></Skills>
+                  <Skills skill="JavaScript"col={1}></Skills>
+                  <Skills skill="HTML/HTML5"col={1}></Skills>
+                  <Skills skill="Bootstrap"col={1}></Skills>
+                  <Skills skill="CSS/CSS3"col={1}></Skills>
+                  <Skills skill="MongoDB"col={1}></Skills>
+                  <Skills skill="MySQL"col={1}></Skills>
+                  <Skills skill="React"col={1}></Skills>
+                  <Skills skill="Node.js"col={1}></Skills>
+                  <Skills skill="API's"col={1}></Skills>
+                  <Skills skill="Git"col={1}></Skills>
+                  <Skills skill="UI design "col={1}></Skills>
+                  <Skills skill="UX design "col={1}></Skills>
               </Grid>
             </Cell>
           </Grid>

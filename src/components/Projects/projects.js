@@ -63,7 +63,7 @@ class Projects extends Component {
               Coming Soon...
             </CardText>
             <CardActions border>
-             <Button colored><a href="https://github.com/Michaelmw17">GitHub</a></Button>
+            <Button colored><a href="https://github.com/Michaelmw17">GitHub</a></Button>
               <Button colored><a href="#">Github App</a></Button>
               <Button colored><a href="#">Live Demo</a></Button>
             </CardActions>
@@ -140,7 +140,6 @@ class Projects extends Component {
           <Tab>Projects</Tab>
           <Tab>Github</Tab>
           {/* <Tab>Future</Tab> */}
-          {/* <Tab>Coming soon</Tab> */}
         </Tabs>
 
 
@@ -149,8 +148,6 @@ class Projects extends Component {
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
-
       </div>
     )
   }

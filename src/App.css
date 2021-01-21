@@ -1,3 +1,4 @@
+
 .header-color {
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);  /* Chrome 10-25, Safari 5.1-6 */
@@ -29,6 +30,7 @@
   text-align: center;
   padding-left: 90px;
   
+  
 }
 .fa-globe {
   padding-left: 10px;
@@ -43,8 +45,8 @@
   display: flex;
   flex-direction: column;
 }
-p {
-  font-size: 16px;
+p,ul,li {
+  font-size: 18px;
 }
 a, i, Button {
   color: black;
