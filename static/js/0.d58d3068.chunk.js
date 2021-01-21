@@ -1,2 +1,0 @@
-(this["webpackJsonpa-app"]=this["webpackJsonpa-app"]||[]).push([[0],{133:function(p,t,e){"use strict";e.r(t);var s=e(0);e(1);t.default=function(){return Object(s.jsx)("img",{src:"/mw/Images/circle-cropped.png",alt:"Logo",style:{height:"200px"}})}}}]);
-//# sourceMappingURL=0.d58d3068.chunk.js.map
