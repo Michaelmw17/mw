@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import "animate.css/animate.min.css";
 
 
 class Contact extends Component {
   render() {
-    return (<Bounce>
+    return (<Fade>
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="contact-grid">
           <Cell col={12} tablet={8}>
@@ -66,7 +66,7 @@ class Contact extends Component {
               </Cell>
             </Grid>
           </div>
-      </Bounce>
+      </Fade>
       
     )
   }

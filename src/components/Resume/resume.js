@@ -4,6 +4,7 @@ import Education from '../Education/education';
 import Experience from '../Experience/experience';
 import Skills from '../Skills/skills';
 import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import "animate.css/animate.min.css";
 import Zoom from 'react-reveal/Zoom';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
@@ -16,7 +17,7 @@ class Resume extends Component {
   render() {
     return(
       <div>
-        <Bounce>
+        <Fade>
         <Grid>
             <Cell col={4} phone={12} tablet={6} className='firstHeader'>
               <Zoom>
@@ -134,7 +135,7 @@ class Resume extends Component {
               </Grid>
             </Cell>
           </Grid>
-        </Bounce>
+        </Fade>
       </div>
     )
   }

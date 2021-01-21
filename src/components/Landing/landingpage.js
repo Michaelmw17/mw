@@ -2,9 +2,12 @@ import React, { Component, lazy, Suspense } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Bounce from 'react-reveal/Bounce';
 import "animate.css/animate.min.css";
-import Zoom from 'react-reveal/Zoom';
+import Pulse from 'react-reveal/Pulse';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
+
+import Fade from 'react-reveal/Fade';
+
 
 
 const MyComp = lazy(() => import('../MyComp/myComp'));
@@ -13,10 +16,11 @@ const MyComp = lazy(() => import('../MyComp/myComp'));
 class Landing extends Component {
   render() {
     return (
+      <Pulse>
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12} tablet={8}>
-            <Bounce>
+            <Bounce bottom>
               <Suspense fallback={
                 <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
                     
@@ -24,7 +28,7 @@ class Landing extends Component {
                     <MyComp />
                 </Suspense>
               <div className="banner-text">
-                <Zoom>
+                <Fade>
               <h1>Full Stack Web Developer</h1>
             <hr/>
             <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | Node | Express | MongoDB | Git/Github | jQuery | APIs | JSON | AJAX</p>
@@ -69,13 +73,13 @@ class Landing extends Component {
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a> */}
                   </div>
-                </Zoom>
+                </Fade>
             </div>
             </Bounce>
           </Cell>
         </Grid>
         </div>
-        
+        </Pulse>
     )
   }
 }

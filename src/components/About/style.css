@@ -1,9 +1,9 @@
 
 
-.h1 {
+.aboutHeader {
     padding-top: 80px;
     text-align: center;
-    color: #000000 ;
+    color: black ;
     font-size: 48px;
     font-family: 'Roboto Slab';
 }
@@ -24,3 +24,19 @@
     font-family: 'Roboto Slab';
 }
 
+
+.landing-grid-about {
+  font-family: 'Roboto Slab';
+  background: white;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 250vh;
+  font-family: 'Roboto Slab';
+  
+}

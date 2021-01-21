@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import "animate.css/animate.min.css";
 
@@ -7,6 +8,7 @@ class Education extends Component  {
   render ()  {
     return (
       <Zoom>
+      <Fade>
       <Grid>
         <Cell col={4}>
           <p>{this.props.startYear} - {this.props.endYear}</p>
@@ -16,6 +18,7 @@ class Education extends Component  {
           <ul>{this.props.schoolDescription}</ul>
         </Cell>
         </Grid>
+        </Fade>
       </Zoom>
     )
   }
