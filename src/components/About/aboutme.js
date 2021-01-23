@@ -19,7 +19,9 @@ class About extends Component {
                       <Suspense fallback={
                         <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
                       }>
-                    <MyComp />
+             
+              <MyComp />
+              <hr className="hrAbout" style={{borderTop: '3px solid #833fb2'}}/>
                 </Suspense>
                     <p className="aboutFirstPara">
                       Completed Full Stack Web Development at the University of Sydney. I started the course as I enjoy the challenges of coding. I've learnt  JavaScript,  Html, CSS, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB  and responsive Web design with wanting to further develop my coding skills with the goal to become a Full-Stack Web Developer.

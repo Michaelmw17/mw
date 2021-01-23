@@ -1,6 +1,6 @@
-## Portfolio Update
+## Portfolio Update React
 
-As a type of user, I want to perform the task of improving my portfolio and updating to new web development features such as react.
+As a type of user, I want to perform the task of improving my portfolio and updating to new features with  React.
 ### User Story
 
 I am Michael Watt, I am studying Full Stack Web Development at the University of Sydney, with skills in Javascript,  Html, CSS, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB, React and responsive web design.
@@ -19,9 +19,6 @@ An organised and open minded person with creative ideas, who is motivated to use
 [About me]<img src="./public/Images/ScreenShot1.png">
 [Projects]<img src="./public/Images/ScreenShot3.png">
 [Github]<img src="./public/Images/ScreenShot2.png">
-
-
-
 <hr>
 
 ### Demonstration
@@ -45,7 +42,8 @@ _Michael Watt_
 
 - [Github!](https://github.com/Michaelmw17)
 - [LinkedIn!](https://www.linkedin.com/in/michael-watt-6a76961b3/)
-- [Portfolio!](http://michaelmw17.github.io/)
+- [Javascript Portfolio!](http://michaelmw17.github.io/)
+- [Portfolio!](http://michaelmw17.github.io/mw)
 - Email:(michaelmw17@outlook.com)
 
 ##### License 

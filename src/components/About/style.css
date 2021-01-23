@@ -23,6 +23,7 @@
     line-height: 180%;
     color: black;
     font-family: 'Roboto Slab';
+    font-weight: 500;
 }
 
 
@@ -40,4 +41,14 @@
   min-height: 250vh;
   font-family: 'Roboto Slab';
   
+}
+
+img {
+    padding-bottom: 20px;
+}
+.hrAbout {
+  
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
 }
