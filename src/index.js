@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import 'react-mdl/extra/material.css';
-import 'react-mdl/extra/material.js';
-import { BrowserRouter } from 'react-router-dom';
-
+import './styles/style.css'
+import './styles/images.css'
+import './styles/no-touch.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
-  <BrowserRouter>
-<App />
-  </BrowserRouter>
-  , document.getElementById('root'));
-registerServiceWorker();
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

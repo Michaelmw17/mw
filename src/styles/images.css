@@ -1,0 +1,42 @@
+
+/* Add your profile image here */
+.Photo{
+    background-image: url('./profile.png');
+}
+/* Projects Photo */
+#project1{
+    background-image: url('https://agr2020xman.github.io/Project_1-Basketball-News/img/basketball-removebg-preview.png');
+
+}
+#project2{
+    background-image: url('https://eco-getaway.herokuapp.com/EcoGetawayLogo.jpg');
+}
+#project3{
+    background-image: url('https://business-advertisement-portal.herokuapp.com/assets/images/202a200d-dc06-4960-a219-348c189ab453_200x200.png');
+    
+    background-color: aliceblue;
+}
+#project4{
+    background-image: url('https://hidden-fortress-02395.herokuapp.com/assets/images/burger.png');
+}
+#project5{
+    background-image: url('https://randomuser.me/api/portraits/women/94.jpg');
+     background-color: aliceblue;
+}
+#project6{
+    background-image: url('https://camo.githubusercontent.com/11cc81f3cd293c59945b586b08dfaaf57aa1161373b236afb45bf2c870c266e7/68747470733a2f2f706e672e706e67747265652e636f6d2f706e672d766563746f722f32303139303931322f6f75726d69642f706e67747265652d68617070792d656d706c6f7965652d706e672d696d6167655f313733303830312e6a7067');
+}
+/* Miscelaneous Activities photo */
+#misc1{
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+}
+#misc2{
+    background-image: url('data:image/png;base64,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');
+}
+#misc3{
+    background-image: url('https://a.slack-edge.com/8a6a9/img/product-ui-generator/apps/twitter.png');
+}
+/* Contact form parallax effect image */
+.parallax{
+    background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}

@@ -45,7 +45,3 @@ _Michael Watt_
 - [Javascript Portfolio!](http://michaelmw17.github.io/)
 - [Portfolio!](http://michaelmw17.github.io/mw)
 - Email:(michaelmw17@outlook.com)
-
-##### License 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
