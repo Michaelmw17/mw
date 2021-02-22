@@ -12,7 +12,7 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "I hope for an exciting career change and am always up for a challenge. Full Stack Web development with a extensive background in JavaScript, CSS, HTML, node.js, jQuery, API's, MySQL, MongoDb and responsive web design. I'm a fascinated, passionate web developer with an unshakeable optimist attitude always wanting to give my best. Completed Full Stack Web Development course at University of Sydney and have a Certificate IV in Business Studies. I’m motivated to become a web developer as the problem-solving aspects of web design is a challenging experience. I have extensive experience in customer service and business administration having worked in retail and hospitality for over four years. "
+    paragraph: "I hope for an exciting career change and am always up for a challenge. Full Stack Web development with a extensive background in JavaScript, Html, CSS, Bootstrap, Responsive Web Design, React, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB, JSON, AJAX, Git/Github, ORM, Python. I'm a fascinated, passionate web developer with an unshakeable optimist attitude always wanting to give my best. Completed Full Stack Web Development course at University of Sydney and have a Certificate IV in Business Studies. I’m motivated to become a web developer as the problem-solving aspects of web design is a challenging experience. I have extensive experience in customer service and business administration having worked in retail and hospitality for over four years. "
 
 }
 
