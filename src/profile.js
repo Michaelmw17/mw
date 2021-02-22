@@ -36,7 +36,7 @@ const projects = [
         // Add image in './styles/images.css' in #project2
         id: "project2",
         name: "Eco Getaway",
-        skills: ["HTML, CSS, JS, React"],
+        skills: ["MERN React App"],
         url: "https://eco-getaway.herokuapp.com/"
     },
     {
