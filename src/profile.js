@@ -89,7 +89,7 @@ const miscellaneous = [
         // Add image in './styles/images.css' in #misc3
         id: "misc3",
         name: "Twitter",
-        url: "https://twitter.com/Michael51620516"
+        url: "https://twitter.com/michaelDaleyOne"
     },
 ]
 // Contact form text, and Jotforms link

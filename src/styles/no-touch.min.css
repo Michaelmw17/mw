@@ -28,6 +28,7 @@ body {
   text-align: center;
   font-size: 5.5rem;
   position: absolute;
+  margin-bottom: 40px;
 }
 .Header p {
   margin-top: 125px;
@@ -303,20 +304,13 @@ textarea:focus {
   text-decoration-color: var(--primary-color);
 }
 .Copy {
-  color: #fff !important;
+  color: black !important;
   font-weight: 500;
   padding-top: 2%;
 }
 .project-name {
   text-decoration: none;
 }
-/* .gtp {
-  position: fixed;
-  left: 92%;
-  height: 150px;
-  top: 82%;
-  z-index: 1002;
-} */
 .see {
   background-color: var(--primary-color);
   color: #fff;
@@ -352,7 +346,7 @@ textarea:focus {
   bottom: 46%;
 }
 .Header p {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 .switch input {
   opacity: 0;
@@ -517,4 +511,7 @@ input:checked + .slider:before {
   .fa-eye {
     font-size: 20px;
   }
+}
+.not-dark {
+  color: black
 }
