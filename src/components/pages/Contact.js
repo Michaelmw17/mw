@@ -42,13 +42,7 @@ const Contact = () => {
                             scrolling="no"
                             >
                             </iframe>
-                    {/* <form action={contact.contactUrl ? contact.contactUrl : "https://form.jotform.com/210483002658046"} method={contact.contactUrl ? "POST" : "GET"}>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
-                        <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
-                        <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                        <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                        <button style={{cursor: 'pointer'}} type="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
-                    </form> */}
+                    
                 </div>
             {/* <p id="not-dark" className="Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p> */}
         </div>
