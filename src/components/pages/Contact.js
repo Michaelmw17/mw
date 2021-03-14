@@ -44,10 +44,8 @@ const Contact = () => {
                             </iframe>
                     
                 </div>
-            {/* <p id="not-dark" className="Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p> */}
         </div>
     )
     
 }
-
 export default Contact
