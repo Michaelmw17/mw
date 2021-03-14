@@ -42,7 +42,6 @@ const Contact = () => {
                             scrolling="no"
                             >
                             </iframe>
-                    
                 </div>
         </div>
     )
