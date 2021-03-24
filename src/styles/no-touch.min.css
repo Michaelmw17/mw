@@ -130,6 +130,7 @@ span {
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
+  margin-left: 25px;
 }
 .third {
   width: 75%;

@@ -7,12 +7,12 @@ import styled from "styled-components";
 
 const Header = () => {
     const Nav = styled.nav`
-  padding: 0 20px;
-  min-height: 9vh;
-  background: #1C00ff00;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    padding: 0 20px;
+    min-height: 9vh;
+    background: #1C00ff00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 `;
 
 const Logo = styled.h1`
@@ -108,62 +108,62 @@ const OverlayMenu = styled.ul`
         document.getElementById('not').classList.toggle('inverse-dark')
         var x = document.getElementsByClassName('img-pro')
         for(let i = 0; i < x.length; i += 1) {
-          x.item(i).classList.toggle("inverse-dark");
-        }
+        x.item(i).classList.toggle("inverse-dark");
+    }
         
         if (document.documentElement.classList.contains('dark-mode'))
-          localStorage.setItem('mode', 'Dark')
-        else
-          localStorage.setItem('mode', 'Light')
-        }
+        localStorage.setItem('mode', 'Dark')
+    else
+        localStorage.setItem('mode', 'Light')
+    }
     const [toggle, toggleNav] = useState(false);
     return ( <>
-      <Nav >
-                <Logo>
-                    <img src={logo} alt="Logo" href='/' className='Logo' width='60px' height='60px' />
-                </Logo>
-        <Menu>
-          <Item>
-            <Link target="#" href="https://www.linkedin.com/in/michael-watt-6a76961b3/">
-            <i className="fab fa-linkedin"></i>
-            </Link>
-          </Item>
-          <Item>
-            <Link target="#" href="https://twitter.com/michaelDaleyOne">
-              <i className="fab fa-twitter"></i>
-            </Link>
-          </Item>
-          <Item>
-            <Link target="#" href="https://github.com/michaelmw17">
-              <i className="fab fa-github"></i>
-            </Link>
-          </Item>
-        </Menu>
-        <NavIcon onClick={() => toggleNav(!toggle)}>
-          <Line open={toggle} />
-          <Line open={toggle} />
-          <Line open={toggle} />
-        </NavIcon>
-      </Nav>
-      <Overlay open={toggle}>
-        <OverlayMenu open={toggle}>
-          <Item>
-            <Link target="#" href="https://www.linkedin.com/in/michael-watt-6a76961b3/">
-            <i className="fab fa-linkedin"></i>
-            </Link>
-          </Item>
-          <Item>
-            <Link target="#" href="https://twitter.com/michaelDaleyOne">
-              <i className="fab fa-twitter"></i>
-            </Link>
-          </Item>
-          <Item>
-            <Link target="#" href="https://github.com/michaelmw17">
-              <i className="fab fa-github"></i>
-            </Link>
-          </Item>
-        </OverlayMenu>
-      </Overlay>
+        <Nav >
+                    <Logo>
+                        <img src={logo} alt="Logo" href='/' className='Logo' width='60px' height='60px' />
+                    </Logo>
+            <Menu>
+            <Item>
+                <Link target="#" href="https://www.linkedin.com/in/michael-watt-6a76961b3/">
+                <i className="fab fa-linkedin"></i>
+                </Link>
+            </Item>
+            <Item>
+                <Link target="#" href="https://twitter.com/michaelDaleyOne">
+                <i className="fab fa-twitter"></i>
+                </Link>
+            </Item>
+            <Item>
+                <Link target="#" href="https://github.com/michaelmw17">
+                <i className="fab fa-github"></i>
+                </Link>
+            </Item>
+            </Menu>
+            <NavIcon onClick={() => toggleNav(!toggle)}>
+            <Line open={toggle} />
+            <Line open={toggle} />
+            <Line open={toggle} />
+            </NavIcon>
+        </Nav>
+        <Overlay open={toggle}>
+            <OverlayMenu open={toggle}>
+            <Item>
+                <Link target="#" href="https://www.linkedin.com/in/michael-watt-6a76961b3/">
+                <i className="fab fa-linkedin"></i>
+                </Link>
+            </Item>
+            <Item>
+                <Link target="#" href="https://twitter.com/michaelDaleyOne">
+                <i className="fab fa-twitter"></i>
+                </Link>
+            </Item>
+            <Item>
+                <Link target="#" href="https://github.com/michaelmw17">
+                <i className="fab fa-github"></i>
+                </Link>
+            </Item>
+            </OverlayMenu>
+        </Overlay>
     
         <div>
             <div className="Header">
