@@ -124,12 +124,7 @@ span {
   color: var(--primary-color);
   font-weight: 500;
 }
-Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 
 .About-title-box {
   box-sizing: border-box;
