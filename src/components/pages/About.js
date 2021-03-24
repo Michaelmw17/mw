@@ -2,6 +2,7 @@ import React from 'react'
 import { about, section2title } from '../../profile'
 import { Grid, Image } from 'semantic-ui-react'
 import photo from '../../styles/profile.png'
+import Dog from '../../styles/circle-cropped.png'
 console.log()
 
 const About = () => {
@@ -12,6 +13,9 @@ const About = () => {
                     <Grid.Row columns={2}>
                     <Grid.Column>
                         <Image src={photo} alt="Photo" href='/' className='Photo' width='230px' height='230px' />
+                        </Grid.Column>
+                    <Grid.Column>
+                        <Image src={Dog} alt="Dog" href='/' className='Dog' width='230px' height='230px' />
                         </Grid.Column>
                     <Grid.Column>
                         <div className="About-title-box">
