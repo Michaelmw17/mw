@@ -22,6 +22,9 @@ body {
   height: 100vh;
   font-family: Montserrat, sans-serif;
 }
+span {
+  background-color: #000!important
+}
 .Header h1 {
   color: #000;
   margin: auto;
@@ -101,6 +104,14 @@ body {
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.Logo {
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 .Photo.inverse-dark {
   background-color: #000;
@@ -297,6 +308,7 @@ textarea:focus {
 .nav-link {
   color: #000 !important;
 }
+
 .is-current {
   color: var(--primary-color);
   text-decoration: underline;

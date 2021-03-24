@@ -57,7 +57,7 @@ const projects = [
         // Add image in './styles/images.css' in #project5
         id: "project5",
         name: "Employee Directory",
-        skills: ["HTML, CSS, JS"],
+        skills: ["HTML, CSS, React, RandomAPI"],
         url: "https://michaelmw17.github.io/react-employee-directory/"
     },
     {

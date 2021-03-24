@@ -5,6 +5,7 @@ import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Contact from './components/pages/Contact'
 import AOS from 'aos';
+import Navbar from 'react-bootstrap/Navbar'
 import 'aos/dist/aos.css';
 
 
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Works />
       <Contact />
+    
     </div>
   );
 }
