@@ -25,7 +25,7 @@ An organised and open minded person with creative ideas, who is motivated to use
 
 Deployed on Github pages: - [Portfolio](https://michaelmw17.github.io/mw)
 
-### Tools
+#### Tools
 
 - [VScode](https://code.visualstudio.com/) - The editor of choice.
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
